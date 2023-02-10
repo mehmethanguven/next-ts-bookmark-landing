@@ -1,0 +1,675 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should to match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="overflow-x-hidden"
+  >
+    <nav
+      class="container relative mx-auto p-6"
+    >
+      <div
+        class="my-6 flex items-center justify-between space-x-20"
+      >
+        <div
+          class="z-30"
+        >
+          <img
+            alt=""
+            class="w-auto"
+            data-nimg="1"
+            decoding="async"
+            height="0"
+            id="logo"
+            loading="lazy"
+            src="images/logo-bookmark.svg"
+            style="color: transparent;"
+            width="0"
+          />
+        </div>
+        <div
+          class="hidden items-center space-x-10 uppercase text-grayishBlue md:flex"
+        >
+          <a
+            class="tracking-widest hover:text-softRed"
+            href="#features"
+          >
+            features
+          </a>
+          <a
+            class="tracking-widest hover:text-softRed"
+            href="#download"
+          >
+            download
+          </a>
+          <a
+            class="tracking-widest hover:text-softRed"
+            href="#faq"
+          >
+            faq
+          </a>
+          <a
+            class="rounded-lg border-2 border-softRed bg-softRed px-8 py-2 text-white shadow-md hover:bg-white hover:text-softRed"
+            href="#"
+          >
+            Login
+          </a>
+        </div>
+        <button
+          class="hamburger z-30 block focus:outline-none md:hidden"
+          id="menu-btn"
+        >
+          <span
+            class="hamburger-top"
+          />
+          <span
+            class="hamburger-middle"
+          />
+          <span
+            class="hamburger-bottom"
+          />
+        </button>
+      </div>
+      <div
+        class="m-h-screen fixed inset-0 z-20 h-full w-full flex-col items-center divide-y divide-gray-500 self-end bg-veryDarkBlue px-6 py-1 pt-24 pb-4 uppercase tracking-widest text-white opacity-90 hidden"
+        id="menu"
+      >
+        <div
+          class="w-full py-3 text-center"
+        >
+          <a
+            class="block hover:text-softRed"
+            href="#features"
+          >
+            features
+          </a>
+          <a
+            class="block hover:text-softRed"
+            href="#download"
+          >
+            download
+          </a>
+          <a
+            class="block hover:text-softRed"
+            href="#faq"
+          >
+            faq
+          </a>
+        </div>
+        <div
+          class="w-full py-3 text-center"
+        >
+          <a
+            class="block hover:text-softRed"
+            href="#"
+          >
+            Login
+          </a>
+        </div>
+      </div>
+    </nav>
+    <section
+      id="hero"
+    >
+      <div
+        class="container mx-auto flex flex-col-reverse p-6 lg:mb-0 lg:flex-row"
+      >
+        <div
+          class="flex flex-col space-y-10 lg:mt-16 lg:w-1/2"
+        >
+          <h1
+            class="text-center text-3xl font-semibold lg:text-left lg:text-6xl"
+          >
+            A Simple Bookmark Manager
+          </h1>
+          <p
+            class="mx-auto max-w-md text-center text-lg text-gray-400 lg:mx-0 lg:mt-0 lg:text-left lg:text-2xl"
+          >
+            A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.
+          </p>
+          <div
+            class="flex w-full items-center justify-center space-x-4 lg:justify-start"
+          >
+            <a
+              class="rounded border-2 border-softBlue bg-softBlue p-4 text-sm font-semibold text-white shadow-md hover:bg-white hover:text-softBlue md:text-base"
+              href="#"
+            >
+              Get It On Chrome
+            </a>
+            <a
+              class="rounded border-2 border-gray-300 bg-gray-300 p-4 text-sm font-semibold text-black shadow-md hover:bg-white hover:text-gray-600 md:text-base"
+              href="#"
+            >
+              Get It On Firefox
+            </a>
+          </div>
+        </div>
+        <div
+          class="relative mx-auto lg:mx-0 lg:mb-0 lg:w-1/2"
+        >
+          <div
+            class="bg-hero"
+          />
+          <img
+            alt=""
+            class="relative z-10 w-auto overflow-x-visible lg:top-24 xl:top-0"
+            data-nimg="1"
+            decoding="async"
+            height="0"
+            loading="lazy"
+            src="images/illustration-hero.svg"
+            style="color: transparent;"
+            width="0"
+          />
+        </div>
+      </div>
+    </section>
+    <section
+      id="features"
+    >
+      <div
+        class="container mx-auto mt-16 px-6"
+      >
+        <h2
+          class="mb-6 text-center text-4xl font-semibold"
+        >
+          Features
+        </h2>
+        <p
+          class="mx-auto max-w-md text-center text-grayishBlue"
+        >
+          Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.
+        </p>
+      </div>
+    </section>
+    <section
+      id="tabs"
+    >
+      <div
+        class="container relative mx-auto my-6 mt-12 mb-32 px-6"
+      >
+        <div
+          class="bg-tabs"
+        />
+        <div
+          class="mx-auto mb-6 flex max-w-xl flex-col justify-center border-b md:flex-row md:space-x-10"
+        >
+          <div
+            class="tab flex cursor-pointer justify-center border-b text-center text-gray-600 hover:text-softRed md:w-1/3 md:border-b-0"
+            data-target="panel-1"
+          >
+            <div
+              class="py-5 capitalize"
+              data-target="panel-1"
+            >
+              simple bookmarking
+            </div>
+          </div>
+          <div
+            class="tab flex cursor-pointer justify-center border-b text-center text-gray-600 hover:text-softRed md:w-1/3 md:border-b-0"
+            data-target="panel-1"
+          >
+            <div
+              class="py-5 capitalize"
+              data-target="panel-1"
+            >
+              speed searching
+            </div>
+          </div>
+          <div
+            class="tab flex cursor-pointer justify-center border-b text-center text-gray-600 hover:text-softRed md:w-1/3 md:border-b-0"
+            data-target="panel-1"
+          >
+            <div
+              class="py-5 capitalize"
+              data-target="panel-1"
+            >
+              easy sharing
+            </div>
+          </div>
+        </div>
+        <div
+          class="container mx-auto"
+          id="panels"
+        />
+      </div>
+    </section>
+    <section
+      id="download"
+    >
+      <div
+        class="container mx-auto px-6"
+      >
+        <h2
+          class="mb-6 text-center text-3xl font-semibold md:text-4xl"
+        >
+          Download the extension
+        </h2>
+        <p
+          class="mx-auto max-w-lg text-center text-grayishBlue"
+        >
+          We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize.
+        </p>
+      </div>
+    </section>
+    <section
+      class="py-32"
+      id="download-boxes"
+    >
+      <div
+        class="relative mx-auto flex max-w-5xl flex-col items-center px-10 md:flex-row md:space-x-7 md:px-6"
+      >
+        <div
+          class="mt-10 flex w-full flex-col space-y-4 rounded-lg py-6 text-center shadow-lg md:my-0 md:w-1/3 border"
+        >
+          <div
+            class="flex justify-center"
+          >
+            <img
+              alt=""
+              class="w-auto"
+              data-nimg="1"
+              decoding="async"
+              height="0"
+              loading="lazy"
+              src="/images/logo-chrome.svg"
+              style="color: transparent;"
+              width="0"
+            />
+          </div>
+          <h5
+            class="pt-6 text-xl font-bold"
+          >
+            Add to Chrome
+          </h5>
+          <p
+            class="text-gray-400"
+          >
+            Minimum Version 62
+          </p>
+          <div
+            class="bg-dots bg-repeat-x px-6 pt-6 capitalize"
+          >
+            <a
+              class="block w-full rounded-lg border-2 border-softBlue bg-softBlue py-3 text-white duration-200 hover:bg-white hover:text-softBlue"
+              href="#"
+            >
+              Add & Install Extension
+            </a>
+          </div>
+        </div>
+        <div
+          class="mt-10 flex w-full flex-col space-y-4 rounded-lg py-6 text-center shadow-lg md:my-0 md:w-1/3 border md:mt-8"
+        >
+          <div
+            class="flex justify-center"
+          >
+            <img
+              alt=""
+              class="w-auto"
+              data-nimg="1"
+              decoding="async"
+              height="0"
+              loading="lazy"
+              src="/images/logo-firefox.svg"
+              style="color: transparent;"
+              width="0"
+            />
+          </div>
+          <h5
+            class="pt-6 text-xl font-bold"
+          >
+            Add to Firefox
+          </h5>
+          <p
+            class="text-gray-400"
+          >
+            Minimum Version 55
+          </p>
+          <div
+            class="bg-dots bg-repeat-x px-6 pt-6 capitalize"
+          >
+            <a
+              class="block w-full rounded-lg border-2 border-softBlue bg-softBlue py-3 text-white duration-200 hover:bg-white hover:text-softBlue"
+              href="#"
+            >
+              Add & Install Extension
+            </a>
+          </div>
+        </div>
+        <div
+          class="mt-10 flex w-full flex-col space-y-4 rounded-lg py-6 text-center shadow-lg md:my-0 md:w-1/3 border md:mt-16"
+        >
+          <div
+            class="flex justify-center"
+          >
+            <img
+              alt=""
+              class="w-auto"
+              data-nimg="1"
+              decoding="async"
+              height="0"
+              loading="lazy"
+              src="/images/logo-opera.svg"
+              style="color: transparent;"
+              width="0"
+            />
+          </div>
+          <h5
+            class="pt-6 text-xl font-bold"
+          >
+            Add to Opera
+          </h5>
+          <p
+            class="text-gray-400"
+          >
+            Minimum Version 46
+          </p>
+          <div
+            class="bg-dots bg-repeat-x px-6 pt-6 capitalize"
+          >
+            <a
+              class="block w-full rounded-lg border-2 border-softBlue bg-softBlue py-3 text-white duration-200 hover:bg-white hover:text-softBlue"
+              href="#"
+            >
+              Add & Install Extension
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      id="faq"
+    >
+      <div
+        class="container mx-auto"
+      >
+        <h2
+          class="mb-6 text-center text-2xl font-semibold md:text-4xl"
+        >
+          Frequently Asked Questions
+        </h2>
+        <p
+          class="text-graishBlue mx-auto max-w-lg px-6 text-center"
+        >
+          Here are some of our FAQs. If you have any other questions you'd like answered please feel free to email us.
+        </p>
+      </div>
+    </section>
+     
+    <section
+      id="faq-accordion"
+    >
+      <div
+        class="container mx-auto mb-32 px-6"
+      >
+        <div
+          class="m-8 mx-auto max-w-2xl overflow-hidden"
+        >
+          <div
+            class="group border-b py-1 outline-none"
+          >
+            <div
+              class="ease group flex cursor-pointer items-center justify-between py-3 text-gray-500 transition duration-500"
+            >
+              <div
+                class="ease transition duration-500 group-hover:text-red-500"
+              >
+                What is Bookmark?
+              </div>
+              <div
+                class=" ease transition duration-500 group-focus:-rotate-180 group-focus:text-red-500"
+              >
+                <svg
+                  height="12"
+                  width="18"
+                >
+                  <path
+                    d="M1 1l8 8 8-8"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="3"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              class="ease overflow-hidden transition duration-500 group-focus:max-h-screen hidden"
+            >
+              <p
+                class="py-2 text-justify text-gray-400"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit empora facere iste veritatis possimus necessitatibus repellendus consequuntur, atque aliquam. Autem quas voluptates suscipit illum id dolores, voluptatum officia cupiditate officiis.
+              </p>
+            </div>
+          </div>
+          <div
+            class="group border-b py-1 outline-none"
+          >
+            <div
+              class="ease group flex cursor-pointer items-center justify-between py-3 text-gray-500 transition duration-500"
+            >
+              <div
+                class="ease transition duration-500 group-hover:text-red-500"
+              >
+                How can I request a new browser?
+              </div>
+              <div
+                class=" ease transition duration-500 group-focus:-rotate-180 group-focus:text-red-500"
+              >
+                <svg
+                  height="12"
+                  width="18"
+                >
+                  <path
+                    d="M1 1l8 8 8-8"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="3"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              class="ease overflow-hidden transition duration-500 group-focus:max-h-screen hidden"
+            >
+              <p
+                class="py-2 text-justify text-gray-400"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit empora facere iste veritatis possimus necessitatibus repellendus consequuntur, atque aliquam. Autem quas voluptates suscipit illum id dolores, voluptatum officia cupiditate officiis.
+              </p>
+            </div>
+          </div>
+          <div
+            class="group border-b py-1 outline-none"
+          >
+            <div
+              class="ease group flex cursor-pointer items-center justify-between py-3 text-gray-500 transition duration-500"
+            >
+              <div
+                class="ease transition duration-500 group-hover:text-red-500"
+              >
+                Is ther a mobile app?
+              </div>
+              <div
+                class=" ease transition duration-500 group-focus:-rotate-180 group-focus:text-red-500"
+              >
+                <svg
+                  height="12"
+                  width="18"
+                >
+                  <path
+                    d="M1 1l8 8 8-8"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="3"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              class="ease overflow-hidden transition duration-500 group-focus:max-h-screen hidden"
+            >
+              <p
+                class="py-2 text-justify text-gray-400"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit empora facere iste veritatis possimus necessitatibus repellendus consequuntur, atque aliquam. Autem quas voluptates suscipit illum id dolores, voluptatum officia cupiditate officiis.
+              </p>
+            </div>
+          </div>
+          <div
+            class="group border-b py-1 outline-none"
+          >
+            <div
+              class="ease group flex cursor-pointer items-center justify-between py-3 text-gray-500 transition duration-500"
+            >
+              <div
+                class="ease transition duration-500 group-hover:text-red-500"
+              >
+                What about other Chromium browsers?
+              </div>
+              <div
+                class=" ease transition duration-500 group-focus:-rotate-180 group-focus:text-red-500"
+              >
+                <svg
+                  height="12"
+                  width="18"
+                >
+                  <path
+                    d="M1 1l8 8 8-8"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="3"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              class="ease overflow-hidden transition duration-500 group-focus:max-h-screen hidden"
+            >
+              <p
+                class="py-2 text-justify text-gray-400"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit empora facere iste veritatis possimus necessitatibus repellendus consequuntur, atque aliquam. Autem quas voluptates suscipit illum id dolores, voluptatum officia cupiditate officiis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="bg-softBlue"
+      id="newsletter"
+    >
+      <div
+        class="mx-auto max-w-lg py-24"
+      >
+        <p
+          class="mb-6 text-center text-lg uppercase tracking-widest text-white"
+        >
+          35,000+ Already Joined
+        </p>
+        <h2
+          class="mb-6 px-3 text-center text-3xl font-semibold text-white md:text-4xl"
+        >
+          Stay up-to-date with what we're doing
+        </h2>
+        <form
+          class="mx-auto flex max-w-2xl flex-col items-start justify-center space-y-6 px-6 text-base md:flex-row md:space-y-0 md:space-x-4 md:px-0"
+        >
+          <div
+            class="mx-auto flex flex-col items-center justify-between md:mx-0 md:flex-row"
+          >
+            <input
+              class="border-1 mb-4 flex-1 rounded-lg border-white px-6 pt-3 pb-2 focus:outline-none md:mr-3 md:mb-0"
+              placeholder="Enter your email address"
+              type="email"
+              value=""
+            />
+            <input
+              class="inline-flex transform cursor-pointer rounded-lg bg-softRed px-6 py-3 text-center font-semibold text-white duration-200 hover:opacity-90 focus:outline-none"
+              type="submit"
+              value="Contact Us"
+            />
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer
+      class="bg-veryDarkBlue py-16"
+    >
+      <div
+        class="container mx-auto flex flex-col items-center justify-between space-y-16 px-6 md:flex-row md:space-y-0"
+      >
+        <div
+          class="flex flex-col items-center justify-between space-y-8 text-lg font-light text-grayishBlue md:flex-row md:space-y-0 md:space-x-14"
+        >
+          <img
+            alt=""
+            class="mb-1 w-auto"
+            data-nimg="1"
+            decoding="async"
+            height="0"
+            loading="lazy"
+            src="images/logo-bookmark-footer.svg"
+            style="color: transparent;"
+            width="0"
+          />
+          <a
+            class="uppercase hover:text-softRed"
+            href="#features"
+          >
+            features
+          </a>
+          <a
+            class="uppercase hover:text-softRed"
+            href="#download"
+          >
+            download
+          </a>
+          <a
+            class="uppercase hover:text-softRed"
+            href="#faq"
+          >
+            faq
+          </a>
+        </div>
+        <div
+          class="flex space-x-10"
+        >
+          <a
+            href="#"
+          >
+            <img
+              alt=""
+              class="ficon h-6 w-6"
+              data-nimg="1"
+              decoding="async"
+              height="0"
+              loading="lazy"
+              src="images/icon-facebook.svg"
+              style="color: transparent;"
+              width="0"
+            />
+          </a>
+          <a
+            href="#"
+          >
+            <img
+              alt=""
+              class="ficon h-6 w-6"
+              data-nimg="1"
+              decoding="async"
+              height="0"
+              loading="lazy"
+              src="images/icon-twitter.svg"
+              style="color: transparent;"
+              width="0"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</DocumentFragment>
+`;
