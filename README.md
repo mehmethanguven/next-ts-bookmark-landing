@@ -9,6 +9,8 @@ This is a Next.js bookmark landing demo (Next.js - Typescript - Jest - Cypress -
 Mehmethan Guven
 <br/>
 <a href='mailto:mehmethanguven@gmail.com<'>mehmethanguven@gmail.com</a>
+<br/>
+Hire me!
 
 ## Live on Vercel
 
